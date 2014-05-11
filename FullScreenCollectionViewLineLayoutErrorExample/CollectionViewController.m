@@ -15,6 +15,7 @@ static NSInteger const kItemCount = 10;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:kCellID];
 }
 
